@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1095</width>
+    <height>619</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btnAddStudent">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Add Student</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnAddDorm">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>100</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Add Dormitory</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnAssignStudent">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>160</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>AssaignStudent</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnRemoveStudent">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>470</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Remove Student</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableStudents">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>20</y>
+      <width>551</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>Name</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Year</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Dormitory</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>ID</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="btnUpdateMenu">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>360</y>
+      <width>171</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Update Restaurant Menu</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnShowMenu">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>300</y>
+      <width>171</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>View Restaurant Info</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableDorms">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>290</y>
+      <width>551</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>Dormitory Name</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Room Number</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Occupied Beds</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>0</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Student Directory</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>260</y>
+      <width>261</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Dormitory &amp; Available Rooms Status</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>430</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Click To Remove Student</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1095</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
